@@ -21,8 +21,7 @@ ISR (INT0_vect)
 ISR (INT1_vect)
 {
     // task_sm.piezo0_count = 10;
-    // return;
-    
+
     m_sensor_int_disable(1);
 
     m_sensor.m1_count += M_1_ADD;
